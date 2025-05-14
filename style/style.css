@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+  --primary-coffee: #6f4e37;
+  --secondary-beige: #e6d5c3;
+  --accent-caramel: #d4a373;
+  --sour-gummy: "Sour Gummy", sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--sour-gummy);
+}
+
+.btn-primary {
+  background-color: var(--primary-coffee);
+  border-color: var(--primary-coffee);
+}
+
+.btn-primary:hover {
+  background-color: #8b5e3c;
+}
+
+.navbar-brand {
+  font-family: var(--sour-gummy);
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: #d4a373 !important;
+  transform: scale(1.09);
+  -webkit-transform: scale(1.09);
+  -moz-transform: scale(1.09);
+  -ms-transform: scale(1.09);
+  -o-transform: scale(1.09);
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #d4a373 !important;
+  transform: scale(1.09);
+  -webkit-transform: scale(1.09);
+  -moz-transform: scale(1.09);
+  -ms-transform: scale(1.09);
+  -o-transform: scale(1.09);
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #d4a373;
+}
+
+.dropdown-menu {
+  background-color: #8b5e3c;
+  border: 1px solid #d4a373;
+}
+
+.dropdown-item {
+  color: #e6d5c3 !important;
+}
+
+.dropdown-item:hover {
+  background-color: #6f4e37;
+  color: #e6d5c3 !important;
+}
+
+.coffee {
+  font-size: 3rem;
+  color: #d4a373;
+  font-weight: bold;
+  text-align: center;
+}
+
+.coffee:hover {
+  color: #8b5e3c;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.non-coffee {
+  font-size: 3rem;
+  color: #d4a373;
+  font-weight: bold;
+  text-align: center;
+}
+
+.non-coffee:hover {
+  color: #8b5e3c;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.review-card {
+  transition: transform 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.link-hover:hover {
+    color: #D4A373 !important;
+    transform: translateX(5px);
+    transition: all 0.3s ease;
+  }
+  
+  .btn-coffee:hover {
+    background-color: #B99976 !important;
+  }
+
+/* CSS Tentang.html */
+.figure-img-1 {
+  transition: all 0.3s ease-in-out;
+  transform: perspective(1000px) translateZ(0); /* Untuk efek 3D yang lebih smooth */
+}
+
+.figure-img-1:hover {
+  transform: translateY(-10px) rotate(3deg) scale(1.05) perspective(1000px) translateZ(20px);
+  -webkit-transform: translateY(-10px) rotate(3deg) scale(1.05) perspective(1000px) translateZ(20px);
+  -moz-transform: translateY(-10px) rotate(3deg) scale(1.05) perspective(1000px) translateZ(20px);
+  -ms-transform: translateY(-10px) rotate(3deg) scale(1.05) perspective(1000px) translateZ(20px);
+  -o-transform: translateY(-10px) rotate(3deg) scale(1.05) perspective(1000px) translateZ(20px);
+  transition: all 0.3 ease;
+  -webkit-transition: all 0.3 ease;
+  -moz-transition: all 0.3 ease;
+  -ms-transition: all 0.3 ease;
+  -o-transition: all 0.3 ease;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    text-align: right !important;
+    padding: 1rem;
+  }
+
+  .dropdown-menu {
+    background-color: #8b5e3c !important;
+  }
+
+  .carousel-container {
+    margin-top: -1px !important;
+  }
+}
